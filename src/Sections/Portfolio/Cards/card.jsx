@@ -17,7 +17,7 @@ const card =(props)=> {
           <button>JAVASCRIPT</button>
         </div>
         <div className="link">
-          <a href="https://github.com/FuhadSanin"><i class="fa-brands fa-github"></i></a>
+          <a href="https://grand-lily-9ecdfe.netlify.app"><i class="fa-brands fa-github"></i></a>
           <a href="https://fuhadsanin.github.io/collegesitecec/"><i class="fa-brands fa-telegram"></i></a>
         </div>
       </div>

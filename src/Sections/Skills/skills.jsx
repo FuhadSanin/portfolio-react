@@ -1,12 +1,17 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import './skills.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
-export default function skills() {
+export default function Skills() {
+ useEffect(()=>{
+    AOS.init({duration:1000})
+  },[])
   return (
     <div id='skills'>
-        <h1>Skills( )</h1>
+        <h1 data-aos="fade-up">Skills( )</h1>
         <div className="content-row">
-            <div className="content">
+            <div className="content" data-aos="fade-up">
                 <h4 className='text-primary'>Profitient</h4>
                 <ul>
                     <li>C Programming</li>
@@ -15,7 +20,7 @@ export default function skills() {
                     <li>Python</li>
                 </ul>      
             </div>
-            <div className="content">
+            <div className="content" data-aos="fade-up">
                 <h4 className='text-primary'>Frontend</h4>
                 <ul>
                     <li>HTML</li>
@@ -25,7 +30,7 @@ export default function skills() {
                 </ul>
                 
             </div>
-            <div className="content">
+            <div className="content" data-aos="fade-up">
             <h4 className='text-primary'>Backend</h4>
                 <ul>
                     <li>Firebase</li>
