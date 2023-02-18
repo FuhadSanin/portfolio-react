@@ -2,38 +2,30 @@
     width: 100%;
     height: fit-content;
     padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
 }
 #skills h1{
     font-weight:bolder;
     font-size: 50px;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 70px;
+    font-family: sans-serif;
+    font-weight: 700;
 }
-
-#skills .content-row{
+.content-row{
+    width: fit-content;
+    height: 80px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    margin-left: 150px;
+    gap: 70px;
+}
+.content-row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-#skills .content{
-    background-color: #EDF1FF;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-
-}
-#skills .content h4{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20PX;
-}
-#skills .content li{
-    margin-top: 20px;
-    text-decoration: none;
-    margin-left: 20px;
-}
 
 @media only screen and (max-width:600px) {
     #skills{
@@ -54,5 +46,17 @@
         height: 300px;
         border-radius: 20px;
         margin-top: 30px;
+    }
+    #skills .underline{
+        margin-top: 0px;
+    }
+    .content-row{
+        width:50px;
+        height: 50px;
+        display: flex;
+        margin-left: 0px;
+        gap: 0px;
+        flex-wrap: wrap;
+        object-fit: cover;
     }
 }

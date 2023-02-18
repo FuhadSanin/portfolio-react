@@ -11,6 +11,7 @@ function Contact() {
   return (
     <div id='contact'>
         <h1 data-aos="fade-up">Contact( )</h1>
+        <div className="underline" data-aos="fade-up"></div>
         <div className="details">
 
           <div className="col-1" data-aos="fade-up" >

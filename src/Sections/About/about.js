@@ -26,6 +26,7 @@ function About() {
           <div className='col-2'>
             <div className="col-2-data" >
               <h1 data-aos="fade-right">About( )</h1>
+              <div className="underline" data-aos="fade-right"></div>
               <p data-aos="fade-right">here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
               <div className='tab-title' data-aos="fade-up">
                   <h5 className='tab-link active-link' onClick={()=>handle('skill')}>Skills</h5>

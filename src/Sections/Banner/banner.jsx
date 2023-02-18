@@ -1,6 +1,7 @@
 import React from 'react'
 import './banner.css'
 import Type from 'react-typical'
+import '../../image/font-awsome/css/all.css'
 
 function banner() {
   return (

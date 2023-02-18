@@ -5,16 +5,17 @@ const card =(props)=> {
   return (
     <div id='card'>
       <div className="img">
-        <img src={props.img}/>
+        <img src={props.img} alt="" />
       </div>
       <div className="details">
-        <h3 className='text-primary'>{props.title}</h3>
-        <p>re are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or</p>
-        <h6>Stack</h6>
+        <h3>{props.title}</h3>
+        <div className="underline"></div>
+        <div className="par"><p>{props.par}</p></div>
+        <h6 style={{color:"white",paddingTop:"20px",marginBottom:"0px"}}>Stack</h6>
         <div className="btn">
-          <button>HTML</button>
-          <button>CSS</button>
-          <button>JAVASCRIPT</button>
+          <button>{props.s1}</button>
+          <button>{props.s2}</button>
+          <button>{props.s3}</button>
         </div>
         <div className="link">
           <a href="https://grand-lily-9ecdfe.netlify.app"><i class="fa-brands fa-github"></i></a>

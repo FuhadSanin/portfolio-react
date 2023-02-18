@@ -19,6 +19,15 @@
     margin-top: 150px;
     border-radius: 50px;
 }
+.underline{
+    width: 64px;
+    height: 8px;
+    background: linear-gradient(270deg, rgb(88, 19, 199) 0%, rgb(0, 170, 196) 100%);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    align-self: center;
+}
 
 #about .col-2{
     width: 60%;
@@ -31,7 +40,8 @@
     font-size: 50px;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 #about .col-2-data p{
     color: gray;
@@ -41,6 +51,8 @@
 }
 #about .col-2-data{
     width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 #about .tab-title{

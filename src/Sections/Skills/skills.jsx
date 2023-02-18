@@ -2,6 +2,14 @@ import React ,{useEffect}from 'react'
 import './skills.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import img0 from '../../image/Skills/c.png'
+import img1 from '../../image/Skills/react.png'
+import img2 from '../../image/Skills/java.png'
+import img3 from '../../image/Skills/github.png'
+import img4 from '../../image/Skills/c++.png'
+import img5 from '../../image/Skills/html.png'
+import img6 from '../../image/Skills/firebase.png'
+
 
 export default function Skills() {
  useEffect(()=>{
@@ -9,33 +17,17 @@ export default function Skills() {
   },[])
   return (
     <div id='skills'>
-        <h1 data-aos="fade-up">Skills( )</h1>
-        <div className="content-row">
-            <div className="content" data-aos="fade-up">
-                <h4 className='text-primary'>Profitient</h4>
-                <ul>
-                    <li>C Programming</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                </ul>      
-            </div>
-            <div className="content" data-aos="fade-up">
-                <h4 className='text-primary'>Frontend</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                </ul>
-                
-            </div>
-            <div className="content" data-aos="fade-up">
-            <h4 className='text-primary'>Backend</h4>
-                <ul>
-                    <li>Firebase</li>
-                </ul>
-            </div>
+        <h1 >Skills( )</h1>
+        <div className="underline"  data-aos="fade-right"></div>
+        <div className="content-row" >
+            <img src={img0} alt="" />
+            <img src={img2} alt="" />
+            <img src={img4} alt="" />
+            <img src={img5} alt="" />
+            <img src={img1} alt="" />
+            <img src={img3} alt="" />
+            <img src={img6} alt="" />
+
         </div>
 
     </div>

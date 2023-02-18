@@ -1,20 +1,31 @@
 #card{
     width: 400px;
     height: 700px;
-    background-color: white;
-    box-shadow: 0 8px 15px 0 rgba(117, 117, 117, 0.633);
-    transition-duration: 0.3s;
+    background-color: rgb(0, 7, 14);
+    box-shadow: rgb(80 78 78 / 50%) 3px 3px 30px;
+    transition-duration: 1s;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#card .underline{
+    height: 4px;
+    width: 50px;
+    margin-top: 20px;
+    background: rgb(209, 209, 209);
+    border-radius: 0;
+    margin-bottom: 10px;
 }
 #card:hover{
     box-shadow: 0 8px 20px 0 rgb(113, 113, 113);  
 }
 #card .img{
     width: 400px;
-    height: 300px;
+    height: 250px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 20px 0 rgba(185, 185, 185, 0.2);
     object-fit: cover;
+    
 }
 #card .img img{
     object-fit: cover;
@@ -24,30 +35,41 @@
 #card .details{
     text-align: center;
     padding-top: 30px ;
+    display: flex;
+    flex-direction: column;
 
+}
+#card .details h3{
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+#card .details .par{
+    width: 90%;
+    height: 120px;
+    align-self: center;
 }
 
 #card .details p{
     color: gray;
     font-family: sans-serif;
     font-weight: 100;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 #card .details .btn{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #card .details .btn button{
-    background-color: rgb(236, 236, 236);
+    background-color: cornflowerblue;
     border-radius: 10px;
     border: none;
     font-family: sans-serif;
     padding: 3px 23px;
     font-size: 14px;
-    color: gray;
+    color: white;
     font-weight: 100;
 }
 
@@ -60,11 +82,12 @@
 
 }
 #card .details .link a{
-    color: black;
+    color: rgb(255, 255, 255);
     transition-duration:0.3s;
 }
 #card .details .link a:hover{
-    color: rgb(73, 73, 73);
+    color: rgb(147, 187, 255);
+    font-size: 43px;
 }
 @media only screen and (max-width:600px){
     #card{
