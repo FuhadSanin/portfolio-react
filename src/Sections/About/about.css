@@ -91,6 +91,7 @@
         flex-direction: column;
         height: fit-content;
         width: 100%;
+        padding-bottom: 70px;
     }
 
     #about .col-1{
@@ -125,5 +126,14 @@
     }
     #about .col-2-data{
         width: 80%;
+    }
+    #about .underline{
+        width: 64px;
+        height: 8px;
+        background: linear-gradient(270deg, rgb(88, 19, 199) 0%, rgb(0, 170, 196) 100%);
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        align-self: center;
     }
 }

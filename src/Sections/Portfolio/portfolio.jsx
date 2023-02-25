@@ -36,11 +36,11 @@ const Portfolio=()=> {
       <div class="cards">
         <div className='card-row'  data-aos="fade-up">
           <Card title="movie" img={card1} par={movie} s1="HTML" s2="React.js" s3="Firebase" />
-          <Card title="CEC" img={card2}  par={cec}/>
+          <Card title="CEC" img={card2}  par={cec} s1="HTML" s2="CSS" s3="Bootstrap" />
         </div>
         <div className='card-row'  data-aos="fade-up">
-          <Card title="Tic-Tac-Toe" img={card3} />
-          <Card title="IEDC" img={card5}/>
+          <Card title="Tic-Tac-Toe" img={card3} s2="Java"  />
+          <Card title="IEDC" img={card5} s1="HTML" s2="CSS" s3="Vanta.js"/>
         </div>
       </div>
 

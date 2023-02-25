@@ -81,7 +81,9 @@
 #contact .col-2 .options .option-1 i{
     font-size: 40px;
 }
-
+#contact .underline{
+    margin-bottom: 0;
+}
 @media only screen and (max-width:600px){
     #contact .details{
         width: 100%;

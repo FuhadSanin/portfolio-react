@@ -20,13 +20,13 @@ export default function Skills() {
         <h1 >Skills( )</h1>
         <div className="underline"  data-aos="fade-right"></div>
         <div className="content-row" >
-            <img src={img0} alt="" />
-            <img src={img2} alt="" />
-            <img src={img4} alt="" />
-            <img src={img5} alt="" />
-            <img src={img1} alt="" />
-            <img src={img3} alt="" />
-            <img src={img6} alt="" />
+            <div className='content-data'><img src={img0} alt="" /></div>
+            <div className='content-data'><img src={img2} alt="" /></div>
+            <div className='content-data'><img src={img4} alt="" /></div>
+            <div className='content-data'><img src={img5} alt="" /></div>
+            <div className='content-data'><img src={img1} alt="" /></div>
+            <div className='content-data'><img src={img3} alt="" /></div>
+            <div className='content-data'><img src={img6} alt="" /></div>
 
         </div>
 

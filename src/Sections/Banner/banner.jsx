@@ -1,7 +1,6 @@
 import React from 'react'
 import './banner.css'
 import Type from 'react-typical'
-import '../../image/font-awsome/css/all.css'
 
 function banner() {
   return (
@@ -17,7 +16,7 @@ function banner() {
           <div className="right">
               <h5>Hi there</h5>
               <h1>I'm <span className='text-primary'>Fuhad Sanin</span></h1>
-              <h3><span className='auto-type'><Type steps={[' React Developer',2000,'Web Designer',3000,'Videographer',3000]} loop={Infinity}/> </span></h3>
+              <h3><span className='auto-type'><Type steps={[' React Developer',3000,'Web Designer',1000,'Videographer',1000]} loop={Infinity}/> </span></h3>
               <button className='button'>Resume</button>
           </div>
         </div>

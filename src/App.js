@@ -20,8 +20,8 @@ function App() {
           <PropagateLoader color={"black"} loading={loading} size={30}/>
         </div>
         :
+        <div className='home_page'>       <Home/></div>
 
-        (<Home/>)
       }
     </div>
 

@@ -8,7 +8,7 @@ import './navbar.css'
 function Navbar_Design() {
   const [navbar,setNavbar]=useState(false);
   const changeBg=()=>{
-    if(window.scrollY>2100)
+    if(window.scrollY>2100 && window.scrollY<4200)
       setNavbar(true);
     else
       setNavbar(false);

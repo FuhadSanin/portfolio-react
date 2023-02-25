@@ -18,7 +18,7 @@ const card =(props)=> {
           <button>{props.s3}</button>
         </div>
         <div className="link">
-          <a href="https://grand-lily-9ecdfe.netlify.app"><i class="fa-brands fa-github"></i></a>
+          <a href="https://moviesanin.netlify.app"><i class="fa-brands fa-github"></i></a>
           <a href="https://fuhadsanin.github.io/collegesitecec/"><i class="fa-brands fa-telegram"></i></a>
         </div>
       </div>
