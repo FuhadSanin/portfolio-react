@@ -1,6 +1,7 @@
 import React from 'react'
 import './banner.css'
 import Type from 'react-typical'
+import {FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
 
 function banner() {
   return (
@@ -9,9 +10,9 @@ function banner() {
       <div className="col-1">
         <div className="col-1-data">
           <div className="left">
-              <a href="https://github.com/FuhadSanin"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/fuhad-sanin-b469a3217"><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://github.com/FuhadSanin"><FaGithub className='icons github'/></a>
+              <a href="https://www.linkedin.com/in/fuhad-sanin-b469a3217"><FaLinkedin className='icons linkedin'/></a>
+              <a href=""><FaTwitter className='icons twitter'/></a>
           </div>
           <div className="right">
               <h5>Hi there</h5>
@@ -27,15 +28,6 @@ function banner() {
               
             </div>
         </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </div>
 
   )

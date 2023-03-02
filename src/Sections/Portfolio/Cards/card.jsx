@@ -1,5 +1,6 @@
 import React from 'react'
 import './card.css'
+import {FaGithub,FaTelegram} from "react-icons/fa"
 
 const card =(props)=> {
   return (
@@ -18,8 +19,8 @@ const card =(props)=> {
           <button>{props.s3}</button>
         </div>
         <div className="link">
-          <a href="https://moviesanin.netlify.app"><i class="fa-brands fa-github"></i></a>
-          <a href="https://fuhadsanin.github.io/collegesitecec/"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://moviesanin.netlify.app"><FaGithub className='icons github'/></a>
+          <a href="https://fuhadsanin.github.io/collegesitecec/"><FaTelegram className='icons telgram'/></a>
         </div>
       </div>
     </div>

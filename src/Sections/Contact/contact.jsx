@@ -2,7 +2,7 @@ import React ,{useEffect}from 'react'
 import './contact.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-
+import {FaPhone,FaMailBulk} from "react-icons/fa";
 function Contact() {
 
   useEffect(()=>{
@@ -30,7 +30,7 @@ function Contact() {
           <div className="col-2" data-aos="fade-up">
             <div className='options'>
               <div className="option-1">
-                <i class="fa-solid fa-phone"></i>
+                <FaPhone className='icons phone'/>
                 <h5>+91 8547635528</h5>
               </div>
               <div className="option-1">

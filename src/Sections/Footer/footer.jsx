@@ -1,15 +1,15 @@
 import React from 'react'
 import './footer.css'
-
+import {FaGithub,FaInstagram,FaFacebook,FaLinkedin,FaWhatsapp} from "react-icons/fa"
 export default function footer() {
   return (
     <div id='footer'>
         <div className="up">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+          <FaGithub className='icons github'/>
+          <FaInstagram className='icons instagram'/>
+          <FaLinkedin className='icons linkedin'/>
+          <FaFacebook className='icons facebook'/>
+          <FaWhatsapp className='icons whatsapp'/>
         </div>
         <div className="bottom">
             <p>© 2023 Copyright: Made by SANIN</p>
